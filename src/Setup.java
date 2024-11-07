@@ -32,15 +32,6 @@ class Setup {
 
         String spacer = "------------------------------------------------------";
 
-        // try {
-        //     out = new PrintWriter(new BufferedWriter(new FileWriter(csv_path)));
-        // } catch (IOException e) {
-        //     System.out.println("Error creating PrintWriter with " + csv_file.getAbsolutePath());
-        //     System.out.println("This could be due to the file name exists but is a directory, does not exist but cannot be created, or cannot be opened for any other reason.");
-        //     System.out.println("Aborting...");
-        //     System.exit(1);
-        // }
-
         List<Question> questions = new ArrayList<Question>();
 
         String problem = null;
